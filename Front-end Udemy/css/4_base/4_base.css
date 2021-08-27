@@ -128,3 +128,13 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: " header header"
+                         "article picture"
+                         "footer footer"  
+    
+    ;
+}
