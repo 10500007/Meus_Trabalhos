@@ -132,9 +132,33 @@ table {
 #container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: " header header"
+    grid-template-areas: "header header"
                          "article picture"
                          "footer footer"  
     
     ;
+}
+
+header{
+    grid-area:header;
+}
+article{
+    grid-area:article;
+}
+picture{
+    grid-area:picture;
+}
+footer{
+    grid-area:footer;
+}
+
+#navigation>ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#navigation>ul>li{
+    margin-left: 15px;
+    align-items: center;
+    
 }
