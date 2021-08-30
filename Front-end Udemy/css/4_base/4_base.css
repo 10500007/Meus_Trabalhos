@@ -141,6 +141,11 @@ table {
 
 header{
     grid-area:header;
+    height: 40px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 article{
     grid-area:article;
@@ -151,14 +156,23 @@ picture{
 footer{
     grid-area:footer;
 }
-
+#navigation{
+    flex-grow: 10;
+    
+   
+}
 #navigation>ul{
-    display: flex;
-    flex-direction: row;
+  
+   display: flex;
+   
 }
 
+button{
+    width: 200px;
+    height: 40px;
+}
 #navigation>ul>li{
     margin-left: 15px;
-    align-items: center;
+    
     
 }
