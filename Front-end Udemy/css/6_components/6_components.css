@@ -1,0 +1,16 @@
+
+#navigation{
+    flex-grow: 10;
+    
+   
+}
+#navigation>ul{
+  
+    display: flex;
+    
+ }
+#navigation>ul>li{
+    margin-left: 15px;
+    
+    
+}
