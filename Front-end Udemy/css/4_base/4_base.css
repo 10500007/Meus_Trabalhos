@@ -156,23 +156,9 @@ picture{
 footer{
     grid-area:footer;
 }
-#navigation{
-    flex-grow: 10;
-    
-   
-}
-#navigation>ul{
-  
-   display: flex;
-   
-}
 
-button{
-    width: 200px;
-    height: 40px;
-}
-#navigation>ul>li{
-    margin-left: 15px;
-    
-    
+
+
+nav{
+    flex-grow: 1;
 }
