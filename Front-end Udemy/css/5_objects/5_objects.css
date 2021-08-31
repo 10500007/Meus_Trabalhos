@@ -4,7 +4,28 @@
 
 #navigation>ul>li{
     
+    font-size: 15px;
+    font-weight: bold;
+    
     margin-left: 15px;
     
     
+}
+
+#navigation>ul>li>a{
+    list-style: none;
+    text-decoration: none;
+    color:#6066f2;
+    padding: 5px;
+    
+    
+}
+
+#navigation>ul>li>a:hover{
+    color: #8a378d;
+    border-bottom: .9px dotted #8a378d;
+    border-top: .9px dotted #8a378d;
+    padding-left: 7px;
+    transition: all .3s ease-in-out;
+    box-sizing: border-box;
 }
