@@ -1,15 +1,4 @@
-
-#brand>img{
+#brand>img {
     height: 40px;
-}
 
-#navigation>ul{
-    display: flex;
-}
-
-#navigation>ul>li{
-    
-    margin-left: 15px;
-    
-    
 }
