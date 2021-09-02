@@ -130,39 +130,43 @@ table {
     border-spacing: 0;
 }
 
-#container{
+#container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "header header"
-                         "article picture"
-                         "footer footer"  
-    
+        "article picture"
+        "footer footer"
+
     ;
     width: 80%;
     margin: 25px auto 0px;
 }
 
-header{
-    grid-area:header;
+header {
+    grid-area: header;
     height: 40px;
-    
+
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-article{
-    grid-area:article;
+
+article {
+    grid-area: article;
+    margin-top: 90px;
 }
-picture{
-    grid-area:picture;
+
+picture {
+    grid-area: picture;
     justify-self: end;
 }
-footer{
-    grid-area:footer;
+
+footer {
+    grid-area: footer;
 }
 
 
 
-nav{
+nav {
     flex-grow: 1;
 }
