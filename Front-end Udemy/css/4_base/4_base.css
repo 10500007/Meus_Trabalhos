@@ -155,6 +155,7 @@ article{
 }
 picture{
     grid-area:picture;
+    justify-self: end;
 }
 footer{
     grid-area:footer;

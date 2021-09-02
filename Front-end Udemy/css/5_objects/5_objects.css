@@ -92,3 +92,15 @@
     background-color: #8a378d;
 }
 
+#article > span{
+    border: 1px solid red;
+    width: 444px;
+    height: 600px;
+    opacity: 0.35;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 0.94;
+    letter-spacing: 80.6px;
+    text-align: center;
+    color: #dbdbdb;
+}
