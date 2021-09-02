@@ -6,10 +6,10 @@
 #navigation>ul>li {
 
     /*margin-left: 35px;*/
-    margin-left: 7%;
+    margin-left: 2%;
     font-size: 15px;
     font-weight: bold;
-    width: 100px;
+    /*width: 100px;*/
    
 
 }
@@ -29,21 +29,21 @@
 }
 */
 
-
+/*
 #navigation>ul>li:nth-child(1){
-    margin-left: 4%;
+    margin-left: 3.5%;
 }
 #navigation>ul>li:nth-child(2){
-    margin-left: 5%;
+    margin-left: 0.5%;
 }
 
 #navigation>ul>li:nth-child(3){
-    margin-left: 4%;
+    margin-left: 0%;
 }
 #navigation>ul>li:nth-child(4){
-    margin-left: 9%;
+    margin-left: 4.5%;
 }
-
+*/
 
 #navigation>ul>li>a {
 
