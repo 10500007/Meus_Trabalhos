@@ -146,15 +146,36 @@
 
 .send-message>i {
     margin-left: 15px;
+    margin-top: 7px;
 }
 
 .send-message>input {
+    margin-top: 3px;
     margin-left: 15px;
     border: none;
     flex-grow: 2;
+    margin-right: 5px;
+    line-height: 35px;
+    outline: none;
+    /*Tirar bordar quando seleciona o campo*/
 }
+
+
 
 .send-message>button {
 
     flex-grow: 1;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    margin-right: 5px;
+    background-color: #488cf5;
+    height: 80%;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.send-message>button:hover {
+    background-color: #8a378d;
 }
