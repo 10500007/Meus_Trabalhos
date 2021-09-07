@@ -18,6 +18,7 @@
     bottom: 0;
     height: 36vh;
     z-index: -2;
+    width: 25%;
 }
 
 footer small {

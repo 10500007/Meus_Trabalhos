@@ -82,6 +82,10 @@
 
 }
 
+#btn-abrir-fechar {
+    display: none;
+}
+
 .button>img {
     vertical-align: middle;
     margin-bottom: 6px;
@@ -133,6 +137,7 @@
 }
 
 .send-message {
+    background-color: #fff;
     margin-left: 20px;
     display: flex;
     width: 450px;

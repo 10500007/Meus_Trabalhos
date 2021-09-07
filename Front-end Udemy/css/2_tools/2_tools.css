@@ -3,3 +3,90 @@
         flex-grow: 0.5;
     }
 }
+
+@media (max-width:1230px) {
+    #container {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-areas: ". header ."
+            ". article ."
+            ". picture ."
+            ". footer ."
+
+
+        ;
+        width: 80%;
+        margin: 25px auto 0px;
+
+
+    }
+
+
+
+    #picture {
+
+        margin: auto;
+        margin-top: -600px;
+        z-index: -1;
+        opacity: .2;
+    }
+
+
+
+    footer {}
+
+    #article {
+        margin: 90px auto;
+    }
+}
+
+@media (max-width:880px) {
+
+    #container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: "header "
+            "article "
+            "picture"
+            "footer"
+
+
+        ;
+        width: 100%;
+        margin: 25px auto 0px;
+
+
+    }
+
+    #brand {
+        margin-left: 10px;
+    }
+
+    #btn-bag,
+    #btn-login {
+        display: none;
+    }
+
+    #navigation {
+        display: none;
+    }
+
+    #btn-abrir-fechar {
+        display: block;
+        width: 50px;
+        height: 50px;
+        text-indent: -9999px;
+        background-color: #fff;
+        border-color: #c4c4c4;
+        border-style: solid;
+        border-radius: 5px;
+        background-image: url(../../img/menuprincipal-btn-bg.png);
+        background-repeat: no-repeat;
+        background-position: 6px 7px;
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+
+    }
+}
