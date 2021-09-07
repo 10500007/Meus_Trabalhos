@@ -105,6 +105,8 @@ section {
 body {
     line-height: 1;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+
 }
 
 ol,
@@ -140,6 +142,7 @@ table {
     ;
     width: 80%;
     margin: 25px auto 0px;
+
 }
 
 header {
@@ -149,6 +152,8 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }
 
 article {
@@ -163,10 +168,14 @@ picture {
 
 footer {
     grid-area: footer;
+    text-align: center;
+
 }
 
 
 
 nav {
     flex-grow: 1;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }

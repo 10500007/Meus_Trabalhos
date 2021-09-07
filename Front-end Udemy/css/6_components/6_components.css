@@ -2,3 +2,27 @@
     height: 40px;
 
 }
+
+.shape1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    z-index: -2;
+    width: 100%;
+}
+
+.shape2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 36vh;
+    z-index: -2;
+}
+
+footer small {
+
+    font-weight: bold;
+    color: #adadad;
+
+}
