@@ -1,10 +1,8 @@
-#navigation{
-    transition: all .30s ease-in-out;
-}
+
 #navigation>ul {
     display: flex;
     min-width: 420px;
-    
+    transition: all 3000ms ease-in-out;
 }
 
 #navigation>ul>li {
@@ -56,7 +54,7 @@
     text-decoration: none;
     color: #6066f2;
     padding: 5px;
-
+    
 
 }
 
