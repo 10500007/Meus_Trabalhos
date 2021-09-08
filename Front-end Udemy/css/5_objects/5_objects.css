@@ -1,6 +1,10 @@
+#navigation{
+    transition: all .30s ease-in-out;
+}
 #navigation>ul {
     display: flex;
     min-width: 420px;
+    
 }
 
 #navigation>ul>li {
