@@ -41,16 +41,14 @@
 }
 
 @media (max-width:880px) {
-    #navigation{
-        transition: all .30s ease-in-out;
-    }
-   
-    nav{
+
+
+    nav {
         flex-grow: 1;
-        
+
     }
 
- 
+
     #container {
         display: grid;
         grid-template-columns: 1fr;
@@ -63,7 +61,7 @@
         ;
         width: 100%;
         margin: 25px auto 0px;
-        transition: all .30s ease-in-out;
+
 
     }
 
@@ -75,44 +73,49 @@
     #btn-login {
         display: none;
     }
-   
-    #navigation>.action-menu{
-        
+
+
+
+    #navigation {
+
+
         position: absolute;
-        top:0;
+        top: 75px;
         width: 100%;
-        
+
+        left: 0;
+        background-color: rgb(179, 129, 214);
+        z-index: 10;
+
+    }
+
+    #navigation>ul {
+        display: flex;
+        padding-top: 25px;
         flex-direction: column;
         align-items: center;
-        margin-top: 75px;
-        gap: 25px;
-        left: 0;
+        gap: 85px;
         height: 90vh;
-        background-color: ivory;
-        padding-top: 25px;
-        transition: all .30s ease-in-out;
-        
+
     }
-    #navigation>.action-menu-ex{   
 
-        display: none;
-        transition: all .30s ease-in-out;
+    #navigation>ul>li>a {
+        color: white;
 
-        /* 
-       width: 115%;
-       border: 1px solid black;
-       flex-direction: column;
-       align-items: center;
-       margin-top: 185px;
-       gap: 25px;
-       margin-left: -85px;
-       height: 100vh;
-       */
+
+        font-size: 30px;
+    }
+
+    #navigation.active {
+        position: absolute;
+        left: -100%;
+        transition: all .7s ease-out;
     }
 
 
 
-    #btn-abrir-fechar {
+
+    .btn-menu {
         display: block;
         width: 50px;
         height: 50px;
@@ -123,11 +126,18 @@
         border-radius: 5px;
         background-image: url(../../img/menuprincipal-btn-bg.png);
         background-repeat: no-repeat;
-        background-position: 6px 7px;
+        background-position: -46px 7px;
+
         cursor: pointer;
         position: absolute;
         top: 15px;
         right: 15px;
+        transition: all .2s ease-out;
 
+    }
+
+    .btn-abrir-fechar {
+        background-position: 6px 7px;
+        transition: all .2s ease-out;
     }
 }
