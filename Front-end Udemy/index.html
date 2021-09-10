@@ -50,7 +50,8 @@
                 <div class="send-message">
                     <i><img src="img/envelope.png" alt="icone de uma carta de mensagem"></i>
                     <input type="email" placeholder="Escreva seu e-mail">
-                    <button id="send-btn" >Enviar</button>
+                    <a href="#openModal"><button id="send-btn" >Enviar</button></a>
+                   
                 </div>
             </article>
 
@@ -65,6 +66,19 @@
 
         </section>
 
+        <div id="openModal" class="ModalDialog">
+            <div>
+                <a href="#close" title="Fechar" class="closeModal"></a>
+                <div class="side-left">
+                    <img src="img/phone.png" class="phone-msg">
+                    <img src="img/envelope.png" alt="icone de um carta">
+                    <h1>Mensagem Enviada</h1>
+                </div>
+                <div class="side-right">
+                    <p>Obrigado por enviar a mensagem, vamos responder em breve!</p>
+                </div>
+            </div>
+        </div>
    
     <script src="js/codigo.js"></script>
 </body>
