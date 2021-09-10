@@ -188,17 +188,15 @@
     background-color: #8a378d;
 }
 
-#openModal{
-    
-}
+#openModal {}
 
-.ModalDialog{
+.ModalDialog {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
-    background:rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.8);
     z-index: 999;
     opacity: 0;
     transition: opacity 400ms ease-in;
@@ -209,54 +207,99 @@
     display: flex;
 }
 
-.ModalDialog:target{
+.ModalDialog:target {
     opacity: 1;
     pointer-events: auto;
 }
 
-.body-modal{
+.body-modal {
     margin: auto;
-    height: 50%;
-    width: 50%;
+    height: 400px;
+    min-width: none;
+    width: 800px;
     display: flex;
-    
+    box-sizing: border-box;
+    position: relative;
 }
-.side-left{
 
-    border: 1px solid red;
+.closeModal {
+    position: absolute;
+
+    background: #488cf5;
+
+    height: 25px;
+    width: 25px;
+    border-radius: 12px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+    right: -10px;
+    top: -10px;
+}
+
+
+.closeModal:after {
+
+    content: "\d7";
+}
+
+
+.closeModal:hover {
+    transform: scale(1.2);
+    transition: all 150ms ease-in-out;
+}
+
+
+.side-left {
+    position: relative;
+    display: flex;
+
     width: 50%;
     height: 100%;
-    
+
     background-size: 80%;
-    background-position: 60% 100%  ;
-   
-    background-color:#6066f2 ;
+    background-position: 60% 100%;
 
-    
-    
+    background-color: #6065f2;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 30px;
 }
-.phone-msg{
+
+.envelope-msg {
+    height: 20px;
+}
+
+.phone-msg {
     position: absolute;
-   height: 55%;
-   top: 130px;
-   left: 380px;
-   opacity: 0.5;
-  
+
+    height: 100%;
+    width: 80%;
+    top: -30px;
+    left: 10%;
+    opacity: 0.2;
+    box-sizing: border-box;
 }
 
-.side-right{
+.side-right {
     display: flex;
-    
+
     align-items: center;
     background: white;
-    border: 1px solid red;
+    box-sizing: border-box;
     width: 50%;
     height: 100%;
 }
 
-.side-right>p{
+.side-right>p {
     text-align: center;
     font-size: 20px;
-   
-  
+
+
 }
